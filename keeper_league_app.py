@@ -107,7 +107,7 @@ if uploaded_file is not None:
     st.dataframe(options)
 
 ### Sidebar ###
-
+st.sidebar.image('ffa_red.png')
 st.sidebar.markdown(" ## About This App:")
 st.sidebar.markdown("This app is designed to help you make decisions about what players to keep in keeper leagues! The most important thing to know is this will only work with my rankings! If you try and upload rankings that you didn't download from my website then it won't work! You can download the rankings you want to use with the links below.")
 
